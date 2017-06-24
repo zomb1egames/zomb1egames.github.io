@@ -1,5 +1,7 @@
 body {
 	font-family: sans-serif;
+	background-color: black;
+	color: gray;
 }
 
 a {
@@ -8,18 +10,16 @@ a {
 
 #Title {
 	text-align: center;
-	border: 1px solid black;
+	border: 1px solid green;
 	height: 5em;
-	background-color: white;
 }
 
 #DropdownsContainer div {
-	border: 1px solid black;
+	border: 1px solid green;
 	float: left;
 	display: inline;
 	height: 5em;
 	width: 24.851%;
-	background-color: white;
 }
 
  #DropdownsContainer div div {
@@ -33,12 +33,12 @@ a {
 }
 
 #DropdownsContainer div:hover {
-	background-color: lightgreen;
+	background-color: green;
 }
 #DropdownsContainer div:hover div{
 	visibility: visible;
 }
  
 #DropdownsContainer div div:hover {
-	  border-top: 1px solid black;
+	  border-top: 1px solid green;
   }
