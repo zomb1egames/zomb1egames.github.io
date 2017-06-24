@@ -1,0 +1,44 @@
+body {
+	font-family: sans-serif;
+}
+
+a {
+	color: black;
+}
+
+#Title {
+	text-align: center;
+	border: 1px solid black;
+	height: 5em;
+	background-color: white;
+}
+
+#DropdownsContainer div {
+	border: 1px solid black;
+	float: left;
+	display: inline;
+	height: 5em;
+	width: 24.851%;
+	background-color: white;
+}
+
+ #DropdownsContainer div div {
+	 visibility: hidden;
+	 width: 100%;
+	 text-align: center;
+ }
+
+#DropdownsContainer div h2 {
+	text-align: center;
+}
+
+#DropdownsContainer div:hover {
+	background-color: lightgreen;
+}
+#DropdownsContainer div:hover div{
+	visibility: visible;
+}
+ 
+#DropdownsContainer div div:hover {
+	  border-top: 1px solid black;
+  }
